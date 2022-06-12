@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "paypal",
+    "slug": "paypal",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
