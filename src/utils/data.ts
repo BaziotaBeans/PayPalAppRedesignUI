@@ -1,0 +1,117 @@
+export const UserData = [
+  {
+    id: 1,
+    name: "John Doe",
+    message: "Dinero recibido (reclamado)",
+    amount: "+ 50,00",
+    currency: "EUR",
+    img: require("../../assets/User/CarlosRoca.png"),
+    isNegative: false,
+  },
+  {
+    id: 2,
+    name: "David López",
+    message: "Dinero enviado",
+    amount: "- 30,00",
+    currency: "EUR",
+    img: require("../../assets/User/DavidLópez.png"),
+    isNegative: true,
+  },
+  {
+    id: 3,
+    name: "José Oslo",
+    message: "Dinero enviado",
+    amount: "+ 500,00",
+    currency: "USD",
+    img: require("../../assets/User/JoséOslo.png"),
+    isNegative: false,
+  },
+  {
+    id: 4,
+    name: "Mary del Pino",
+    message: "Dinero enviado",
+    amount: "- 280,00",
+    currency: "EUR",
+    img: require("../../assets/User/MarydelPino.png"),
+    isNegative: true,
+  },
+  {
+    id: 5,
+    name: "Sonia Alvarado",
+    message: "Dinero enviado",
+    amount: "- 320,00",
+    currency: "EUR",
+    img: require("../../assets/User/SoniaAlvarado.png"),
+    isNegative: true,
+  },
+  {
+    id: 6,
+    name: "Santiago Ríos",
+    message: "Dinero recibido (reclamado)",
+    amount: "+ 35,00",
+    currency: "EUR",
+    img: require("../../assets/User/SantiagoRíos.png"),
+    isNegative: false,
+  },
+];
+
+
+export const UserReceivedData = [
+   { 
+    id: 1,
+    name: "John Doe",
+    message: "Dinero recibido (reclamado)",
+    amount: "+ 50,00",
+    currency: "EUR",
+    img: require("../../assets/User/CarlosRoca.png"),
+    isNegative: false,
+  },
+  {
+    id: 2,
+    name: "José Oslo",
+    message: "Dinero enviado",
+    amount: "+ 500,00",
+    currency: "USD",
+    img: require("../../assets/User/JoséOslo.png"),
+    isNegative: false,
+  },
+  {
+    id: 3,
+    name: "Santiago Ríos",
+    message: "Dinero recibido (reclamado)",
+    amount: "+ 35,00",
+    currency: "EUR",
+    img: require("../../assets/User/SantiagoRíos.png"),
+    isNegative: false,
+  }
+];
+
+export const UserSendingData = [
+    {
+      id: 1,
+      name: "David López",
+      message: "Dinero enviado",
+      amount: "- 30,00",
+      currency: "EUR",
+      img: require("../../assets/User/DavidLópez.png"),
+      isNegative: true,
+    },
+    {
+      id: 2,
+      name: "Mary del Pino",
+      message: "Dinero enviado",
+      amount: "- 280,00",
+      currency: "EUR",
+      img: require("../../assets/User/MarydelPino.png"),
+      isNegative: true,
+    },
+    {
+      id: 3,
+      name: "Sonia Alvarado",
+      message: "Dinero enviado",
+      amount: "- 320,00",
+      currency: "EUR",
+      img: require("../../assets/User/SoniaAlvarado.png"),
+      isNegative: true,
+    },
+  ];
